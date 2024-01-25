@@ -19,7 +19,7 @@
 
 /* Copied from https://gist.github.com/krissen/dd27082e7ab0575619c7a31f4d2ec7ae#file-zmk_mouse_support-md */
 
-#define U_MOUSE_MOVE_MAX 4000                     /* <--- New max speed setting (default: 600) */
+#define U_MOUSE_MOVE_MAX 2000                     /* <--- New max speed setting (default: 600) */
 #undef MOVE_UP
 #undef MOVE_DOWN
 #undef MOVE_LEFT
@@ -30,7 +30,7 @@
 #define MOVE_RIGHT MOVE_HOR(U_MOUSE_MOVE_MAX)
 
 &mmv {
-	time-to-max-speed-ms = <1500>;             /* <--- How long time until max speed is reached (default: 500) */
+	time-to-max-speed-ms = <800>;             /* <--- How long time until max speed is reached (default: 500) */
 };
 
 #define U_MOUSE_SCROLL_MAX 25                    /* <--- New max speed setting (default: 10) */
