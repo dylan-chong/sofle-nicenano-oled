@@ -69,7 +69,7 @@
                  &kp ESC  &mo ADJUST  &kp LALT  &kp SPACE  &kp LGUI    &mo RAISE  &kp BSPC      &mo LOWER &mo ADJUST     &kp RET
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         lower_layer {
